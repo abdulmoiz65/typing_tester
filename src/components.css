@@ -1,0 +1,32 @@
+header {
+    background-color: transparent;
+    padding: 10px; 
+   
+  }
+  
+  /* .logo {
+    display: flex; 
+    align-items: center;
+  } */
+  
+  header .img {
+    filter: brightness(0) saturate(100%) invert(84%) sepia(69%) saturate(247%) hue-rotate(330deg) brightness(91%) contrast(97%);
+    width: 100px; 
+    height: auto; 
+    margin-right: 0px; /* Add some space between the logo and text */
+  }
+  
+  header .link {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+  }
+
+  header .text {
+    font-family: sans-serif;
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #ffc107;
+    flex-grow: 1;
+  }
+  
